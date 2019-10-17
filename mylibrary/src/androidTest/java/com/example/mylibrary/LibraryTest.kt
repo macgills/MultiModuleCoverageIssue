@@ -1,7 +1,6 @@
-package com.example.multimodulecoverage
+package com.example.mylibrary
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
-import com.example.mylibrary.LibraryObject
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -11,6 +10,6 @@ class LibraryTest {
 
   @Test
   fun testLibraryObject() {
-    assertEquals(5, LibraryObject.getThis(5))
+    assertEquals(5, LibraryObject.testedByLibrary(5))
   }
 }

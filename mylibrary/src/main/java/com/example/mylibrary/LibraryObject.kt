@@ -1,7 +1,6 @@
 package com.example.mylibrary
 
-
 object LibraryObject {
-
-    fun getThis(int: Int) = int
+    fun testedByApp(int: Int) = int
+    fun testedByLibrary(int: Int) = int
 }
